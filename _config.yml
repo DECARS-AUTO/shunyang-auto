@@ -1,0 +1,35 @@
+title: 順揚汽車修配廠有限公司
+description: 臺中豐原專業汽車維修與診斷｜保養、機電維修、ODIS/SFD合規編程、鈑噴與保險協辦
+language: zh-Hant
+timezone: Asia/Taipei
+url: https://你的域名或GitHub Pages网址
+# 主题：使用 GitHub Pages 官方支持的 minima，稳定省心
+theme: minima
+
+# 封面与导航（minima 提供基本导航与页脚）
+minima:
+  skin: auto
+  social_links:
+    - { platform: github,  user_url: "https://github.com/你的GitHub用户名" }
+
+# 构建设置
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# 导航（自定义页脚/页头链接）
+nav:
+  - title: 服務
+    url: /services/
+  - title: 關於我們
+    url: /about/
+  - title: 聯絡與預約
+    url: /contact/
+
+# 联系方式（可在模板中引用）
+company:
+  name: 順揚汽車修配廠有限公司
+  address: 臺中市豐原區南陽里永康路91號1樓
+  phone: "+886921970556"
+  hours: "週一至週六 09:00–18:00"
